@@ -52,7 +52,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-soft">
                 <Image
-                  src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1200&q=80"
+                  src="https://cdn.shopify.com/s/files/1/0718/6517/2140/files/ac1f8a5a-fdd2-4f84-b314-15dacfe81a9e.jpg?v=1783502395"
                   alt="Professional plumber repairing pipes under a sink"
                   fill
                   priority
