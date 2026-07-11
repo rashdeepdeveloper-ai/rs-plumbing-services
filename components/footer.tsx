@@ -42,7 +42,7 @@ export function Footer() {
           <ul className="mt-4 space-y-4 text-navy-100">
             <li className="flex gap-3">
               <Phone aria-hidden className="mt-1 h-5 w-5 text-orange-400" />
-              <a className="focus-ring rounded hover:text-orange-300" href={whatsappUrl("Hi RS Plumbing Services, I need plumbing help.")}>{company.phone}</a>
+              <a className="focus-ring rounded hover:text-orange-300" href={whatsappUrl("Hi Gurkirpa Plumbing Services, I need plumbing help.")}>{company.phone}</a>
             </li>
             <li className="flex gap-3">
               <Mail aria-hidden className="mt-1 h-5 w-5 text-orange-400" />

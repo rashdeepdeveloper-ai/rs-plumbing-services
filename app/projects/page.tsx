@@ -12,7 +12,7 @@ export const metadata = createMetadata({
 export default function ProjectsPage() {
   return (
     <>
-      <PageHeader path="/projects" breadcrumb="Projects" title="Recent plumbing projects and gallery." description="Browse sample project images that show the kind of clean repair, installation, and upgrade work RS Plumbing Services provides." />
+      <PageHeader path="/projects" breadcrumb="Projects" title="Recent plumbing projects and gallery." description="Browse sample project images that show the kind of clean repair, installation, and upgrade work Gurkirpa Plumbing Services provides." />
       <section className="px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <Gallery />

@@ -33,7 +33,7 @@ export function ContactForm() {
 
   function onSubmit(data: ContactFormValues) {
     const message = [
-      "Hi RS Plumbing Services, I need plumbing help.",
+      "Hi Gurkirpa Plumbing Services, I need plumbing help.",
       `Name: ${data.name}`,
       `Phone: ${data.phone}`,
       `Service: ${data.service}`,

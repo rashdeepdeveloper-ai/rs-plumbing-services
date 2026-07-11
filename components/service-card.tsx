@@ -14,7 +14,7 @@ export function ServiceCard({ service, detailed = false }: { service: Service; d
     <Card className="flex h-full flex-col overflow-hidden p-0">
       {detailed ? (
         <div className="relative aspect-[16/10] w-full overflow-hidden rounded-t-lg">
-          <Image src={service.image} alt={`${service.title} service by RS Plumbing Services`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover" />
+          <Image src={service.image} alt={`${service.title} service by Gurkirpa Plumbing Services`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover" />
         </div>
       ) : null}
       <div className="flex flex-1 flex-col p-6">
@@ -35,7 +35,7 @@ export function ServiceCard({ service, detailed = false }: { service: Service; d
         ) : null}
         <Button
           className="mt-6"
-          href={whatsappUrl(`Hi RS Plumbing Services, I need ${service.title}.`)}
+          href={whatsappUrl(`Hi Gurkirpa Plumbing Services, I need ${service.title}.`)}
           variant={detailed ? "primary" : "outline"}
         >
           Request Service

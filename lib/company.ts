@@ -1,13 +1,13 @@
 export const company = {
-  name: "RS Plumbing Services",
-  shortName: "RS Plumbing",
+  name: "Gurkirpa Plumbing Services",
+  shortName: "Gurkirpa Plumbing",
   tagline: "Reliable plumbing solutions for homes and businesses.",
   description:
-    "RS Plumbing Services provides responsive leak repairs, installations, drain cleaning, bathroom plumbing, kitchen plumbing, and commercial plumbing support.",
-  url: "https://www.rsplumbingservices.com",
+    "Gurkirpa Plumbing Services provides responsive leak repairs, installations, drain cleaning, bathroom plumbing, kitchen plumbing, and commercial plumbing support.",
+  url: "https://www.gurkirpaplumbingservices.com",
   phone: "+91 99151 72075",
   whatsappNumber: "919915172075",
-  email: "hello@rsplumbingservices.com",
+  email: "hello@gurkirpaplumbingservices.com",
   address: {
     street: "VPO: Thuha",
     city: "Rajpura",
@@ -32,6 +32,6 @@ export const company = {
 
 export type Company = typeof company;
 
-export function whatsappUrl(message = "Hi RS Plumbing Services, I need plumbing help.") {
+export function whatsappUrl(message = "Hi Gurkirpa Plumbing Services, I need plumbing help.") {
   return `https://wa.me/${company.whatsappNumber}?text=${encodeURIComponent(message)}`;
 }

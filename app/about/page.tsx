@@ -8,20 +8,20 @@ import { team, values } from "@/lib/site-data";
 
 export const metadata = createMetadata({
   title: "About Us",
-  description: "Learn about RS Plumbing Services, our mission, values, and professional plumbing team.",
+  description: "Learn about Gurkirpa Plumbing Services, our mission, values, and professional plumbing team.",
   path: "/about"
 });
 
 export default function AboutPage() {
   return (
     <>
-      <PageHeader path="/about" breadcrumb="About Us" title="A plumbing team built on clear answers and reliable workmanship." description="RS Plumbing Services helps local homes and businesses solve plumbing problems with professionalism, respect, and practical recommendations." />
+      <PageHeader path="/about" breadcrumb="About Us" title="A plumbing team built on clear answers and reliable workmanship." description="Gurkirpa Plumbing Services helps local homes and businesses solve plumbing problems with professionalism, respect, and practical recommendations." />
       <section className="px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-3">
           <Card className="lg:col-span-2">
             <h2 className="text-3xl font-bold text-navy-900">Company Story</h2>
             <p className="mt-5 leading-7 text-slate-600">
-              RS Plumbing Services was created to make plumbing repairs feel less stressful for property owners. Our approach is simple: arrive prepared, inspect carefully, explain the options, and complete the approved work with attention to detail.
+              Gurkirpa Plumbing Services was created to make plumbing repairs feel less stressful for property owners. Our approach is simple: arrive prepared, inspect carefully, explain the options, and complete the approved work with attention to detail.
             </p>
             <p className="mt-4 leading-7 text-slate-600">
               Today, we support homeowners, landlords, shops, and small offices with repairs, installations, preventive maintenance, and emergency plumbing needs.

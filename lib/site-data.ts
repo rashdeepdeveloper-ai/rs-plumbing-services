@@ -114,7 +114,7 @@ export const testimonials = [
   {
     name: "Maya Thompson",
     location: "Mohali",
-    quote: "RS Plumbing Services found a slow leak behind our vanity, explained the repair clearly, and left the bathroom spotless.",
+    quote: "Gurkirpa Plumbing Services found a slow leak behind our vanity, explained the repair clearly, and left the bathroom spotless.",
     rating: 5
   },
   {
@@ -132,7 +132,7 @@ export const testimonials = [
   {
     name: "Jordan Ellis",
     location: "Banur",
-    quote: "We use RS Plumbing for our small office. They are reliable, easy to schedule, and communicate well with our staff.",
+    quote: "We use Gurkirpa Plumbing for our small office. They are reliable, easy to schedule, and communicate well with our staff.",
     rating: 5
   }
 ];
@@ -148,7 +148,7 @@ export const faqs = [
   },
   {
     question: "Can you help with bathroom and kitchen remodel plumbing?",
-    answer: "Yes. RS Plumbing Services handles fixture rough-ins, supply and drain lines, valves, sinks, showers, tubs, and appliance connections."
+    answer: "Yes. Gurkirpa Plumbing Services handles fixture rough-ins, supply and drain lines, valves, sinks, showers, tubs, and appliance connections."
   },
   {
     question: "What should I do if I find a leak?",

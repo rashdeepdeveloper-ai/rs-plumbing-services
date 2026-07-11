@@ -7,7 +7,7 @@ import { company, whatsappUrl } from "@/lib/company";
 
 export const metadata = createMetadata({
   title: "Contact",
-  description: "Contact RS Plumbing Services for plumbing quotes, emergency repairs, service scheduling, and general questions.",
+  description: "Contact Gurkirpa Plumbing Services for plumbing quotes, emergency repairs, service scheduling, and general questions.",
   path: "/contact"
 });
 
@@ -24,7 +24,7 @@ export default function ContactPage() {
               <ul className="mt-5 space-y-4 text-slate-700">
                 <li className="flex gap-3">
                   <Phone aria-hidden className="mt-1 h-5 w-5 text-orange-500" />
-                  <a className="focus-ring rounded hover:text-orange-600" href={whatsappUrl("Hi RS Plumbing Services, I need plumbing help.")}>{company.phone}</a>
+                  <a className="focus-ring rounded hover:text-orange-600" href={whatsappUrl("Hi Gurkirpa Plumbing Services, I need plumbing help.")}>{company.phone}</a>
                 </li>
                 <li className="flex gap-3">
                   <Mail aria-hidden className="mt-1 h-5 w-5 text-orange-500" />

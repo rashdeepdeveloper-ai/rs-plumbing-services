@@ -17,7 +17,7 @@ import { faqs, services, testimonials, whyChooseUs } from "@/lib/site-data";
 
 export const metadata = createMetadata({
   title: "Professional Local Plumbing Services",
-  description: "Fast leak repair, drain cleaning, bathroom plumbing, kitchen plumbing, and commercial plumbing from RS Plumbing Services.",
+  description: "Fast leak repair, drain cleaning, bathroom plumbing, kitchen plumbing, and commercial plumbing from Gurkirpa Plumbing Services.",
   path: "/"
 });
 
@@ -38,11 +38,11 @@ export default function HomePage() {
                 {company.name} helps local property owners solve leaks, clogs, installations, and plumbing upgrades with clear pricing and professional workmanship.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Button className="gap-2" href={whatsappUrl("Hi RS Plumbing Services, I need plumbing help.")}>
+                <Button className="gap-2" href={whatsappUrl("Hi Gurkirpa Plumbing Services, I need plumbing help.")}>
                   <PhoneCall aria-hidden className="h-4 w-4" />
                   Call Now
                 </Button>
-                <Button href={whatsappUrl("Hi RS Plumbing Services, I want a free plumbing quote.")} variant="secondary">
+                <Button href={whatsappUrl("Hi Gurkirpa Plumbing Services, I want a free plumbing quote.")} variant="secondary">
                   Get Free Quote
                 </Button>
               </div>
@@ -107,7 +107,7 @@ export default function HomePage() {
           <div>
             <SectionTitle
               align="left"
-              eyebrow="About RS Plumbing"
+              eyebrow="About Gurkirpa Plumbing"
               title="Local plumbers focused on dependable repairs and respectful service."
               description="From first call to final cleanup, our team keeps the process simple. We explain what is happening, recommend practical solutions, and complete plumbing work with the level of care your property deserves."
             />

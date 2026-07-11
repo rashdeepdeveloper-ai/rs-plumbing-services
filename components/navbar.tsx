@@ -32,11 +32,11 @@ export function Navbar() {
           ))}
         </div>
         <div className="hidden items-center gap-3 lg:flex">
-          <a className="focus-ring inline-flex items-center gap-2 rounded-lg text-sm font-semibold text-navy-900 hover:text-orange-600" href={whatsappUrl("Hi RS Plumbing Services, I need plumbing help.")}>
+          <a className="focus-ring inline-flex items-center gap-2 rounded-lg text-sm font-semibold text-navy-900 hover:text-orange-600" href={whatsappUrl("Hi Gurkirpa Plumbing Services, I need plumbing help.")}>
             <Phone aria-hidden className="h-4 w-4" />
             {company.phone}
           </a>
-          <Button href={whatsappUrl("Hi RS Plumbing Services, I want a plumbing quote.")}>Get a Quote</Button>
+          <Button href={whatsappUrl("Hi Gurkirpa Plumbing Services, I want a plumbing quote.")}>Get a Quote</Button>
         </div>
         <button
           aria-label={open ? "Close menu" : "Open menu"}
@@ -62,7 +62,7 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Button className="mt-3 w-full" href={whatsappUrl("Hi RS Plumbing Services, I want a plumbing quote.")}>
+            <Button className="mt-3 w-full" href={whatsappUrl("Hi Gurkirpa Plumbing Services, I want a plumbing quote.")}>
               Get a Quote
             </Button>
           </div>
