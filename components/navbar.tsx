@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, Phone, X } from "lucide-react";
@@ -15,8 +16,8 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-navy-100 bg-white/95 backdrop-blur">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8" aria-label="Primary">
-        <Link href="/" className="focus-ring rounded text-xl font-extrabold text-navy-900">
-          {company.name}
+        <Link href="/" className="focus-ring flex items-center rounded text-navy-900">
+          <Image src="/logo-transparent.png" alt={company.name} width={176} height={120} className="h-12 w-auto sm:h-14" priority />
         </Link>
         <div className="hidden items-center gap-6 lg:flex">
           {navLinks.map((link) => (
